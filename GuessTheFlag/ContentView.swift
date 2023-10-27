@@ -97,6 +97,7 @@ struct ContentView: View {
     
     func reset() {
         score = 0
+        nextQuestion()
     }
 }
 
