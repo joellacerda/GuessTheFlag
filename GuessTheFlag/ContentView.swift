@@ -16,7 +16,7 @@ struct ContentView: View {
     @State private var showingFinalResult = false
     @State private var questionCounter = 0
     @State private var selectedFlag = -1
-    @State private var animationAmount = 360.0
+    @State private var animationAmount = 0.0
     
     var body: some View {
         ZStack {
